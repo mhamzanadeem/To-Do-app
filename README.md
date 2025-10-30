@@ -72,29 +72,3 @@ cd flutter_riverpod_todo_app
 flutter pub get
 flutter run
 ```
-
----
-
-## ✅ Interview‑Relevant Concepts Covered
-
-* Clean Architecture & Separation of Concerns
-* Riverpod (StateNotifier + ProviderScope)
-* Error handling & UI states
-* Flutter Best Practices
-* Reusable widgets
-* Maintainable code structure
-* Git discipline
-
-
-
-## 🧪 TODO: Future Enhancements
-
-* API integration (REST)
-* Offline sync
-* Unit & widget tests
-* Dark mode
-
-
----
-
-### ⭐ If this project helped you, give it a star!
