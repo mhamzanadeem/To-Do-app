@@ -1,24 +1,100 @@
-# Flutter Riverpod Todo App
-[![Flutter version](https://img.shields.io/badge/flutter-stable-blue?logo=flutter)](https://flutter.dev/docs/development/tools/sdk/releases)
-[![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
+# Flutter Todo App (Riverpod)
 
-This is a simple Todo app built using Flutter and Riverpod, demonstrating how to perform CRUD (Create, Read, Update, Delete) operations in a clean and maintainable way. Riverpod is used as the state management solution for the app, promoting a declarative and efficient approach to handling the application state.
+A clean and production‑ready **Flutter Todo Application** built using **Clean Architecture + Riverpod + MVVM patterns**.
 
-## Getting Started:
+This project demonstrates professional Flutter engineering practices expected in a modern mobile team: scalable architecture, reactive state management, dependency injection, modular folder structure, reusable components, and maintainable code.
 
-1. Clone this repository to your local machine.
+## 🚀 Features
+
+✅ Add, Edit, Delete todos
+✅ Persist data locally
+✅ Riverpod state management
+✅ Clean Architecture + MVVM
+✅ Repository pattern
+✅ Custom UI widgets
+✅ Error + empty + loading states
+✅ Dart Lints & best practices
+
+## 🎯 Why This Project?
+
+This app is designed to align with expectations for **Flutter interviews and real‑world team environments**.
+
+It highlights skills such as:
+
+* Writing clean & scalable code
+* Proper folder structure and architecture
+* Understanding state management (Riverpod)
+* Reusable widgets & themes
+* API / data layer separation (mocked for demo)
+* Meaningful git history and commit messages
+
+
+## 📦 Tech Stack
+
+| Category         | Tools                           |
+| ---------------- | ------------------------------- |
+| Framework        | Flutter                         |
+| State Management | Riverpod                        |
+| Architecture     | Clean Architecture / MVVM       |
+| Code Quality     | Dart Lints                      |
+| UI               | Material 3 + Custom Widgets     |
+| Storage          | Local persistence (mocked repo) |
+
+
+
+## 🏗️ Project Structure
+
 ```
-git clone https://github.com/IsaiasCuvula/flutter_riverpod_todo_app
+lib/
+ ┣ core/          # utilities, themes, constants
+ ┣ data/          # repositories & models
+ ┣ domain/        # entities & usecases
+ ┣ presentation/
+ ┃ ┣ providers/   # Riverpod providers
+ ┃ ┣ screens/     # UI screens
+ ┃ ┗ widgets/     # shared UI components
+ ┗ main.dart
 ```
-2. Ensure you have Flutter and Dart installed on your development environment.
-3. Run ```flutter pub get``` to fetch and install the required dependencies.
-4. Launch the app on an emulator or physical device using ```flutter run```.
 
-<p align="left">
- <img width="200" alt="iPhone13Mockup3" src="https://github.com/IsaiasCuvula/flutter_riverpod_todo_app/assets/68303716/161762c8-f304-4b19-9f4e-4006f50fdc83" />
+---
 
-<img width="200" alt="iPhone13Mockup2" src="https://github.com/IsaiasCuvula/flutter_riverpod_todo_app/assets/68303716/f23c201c-77d3-4fec-9339-3c9b47dce835" />
-  
-<img width="200" alt="iPhone13Mockup1" src="https://github.com/IsaiasCuvula/flutter_riverpod_todo_app/assets/68303716/62148f69-34f8-4f49-9889-a6649336723b" />
-</p>
+## 📸 Screenshots
 
+> Add your own screenshots here (recommended)
+
+
+
+## ▶️ Getting Started
+
+```bash
+git clone https://github.com/yourusername/flutter_riverpod_todo_app.git
+cd flutter_riverpod_todo_app
+flutter pub get
+flutter run
+```
+
+---
+
+## ✅ Interview‑Relevant Concepts Covered
+
+* Clean Architecture & Separation of Concerns
+* Riverpod (StateNotifier + ProviderScope)
+* Error handling & UI states
+* Flutter Best Practices
+* Reusable widgets
+* Maintainable code structure
+* Git discipline
+
+
+
+## 🧪 TODO: Future Enhancements
+
+* API integration (REST)
+* Offline sync
+* Unit & widget tests
+* Dark mode
+
+
+---
+
+### ⭐ If this project helped you, give it a star!
