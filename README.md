@@ -1,4 +1,4 @@
-# Flutter Todo App (Riverpod)
+# Flutter Todo App
 
 A clean and production‑ready **Flutter Todo Application** built using **Clean Architecture + Riverpod + MVVM patterns**.
 
